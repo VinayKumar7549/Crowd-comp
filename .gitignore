@@ -1,0 +1,95 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# YOLO / Model Weights
+# =========================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.weights
+
+# =========================
+# Datasets
+# =========================
+datasets/
+
+# =========================
+# Input videos
+# =========================
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+
+# =========================
+# Generated outputs
+# =========================
+outputs/
+
+# Generated images/results
+runs/
+results/
+predictions/
+
+# =========================
+# Generated plots / visualizations
+# =========================
+plots/
+*.png
+*.jpg
+*.jpeg
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs / temporary files
+# =========================
+*.log
+*.tmp
+*.temp
+
+# =========================
+# Python tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Environment / secrets
+# =========================
+.env
+.env.*
+!.env.example
